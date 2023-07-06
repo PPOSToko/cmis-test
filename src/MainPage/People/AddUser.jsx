@@ -26,12 +26,6 @@ const AddUser = () => {
     username,
   });
 
-  // console.log(userData);
-  const status_akun = [
-    { id: 1, text: "Aktif" },
-    { id: 0, text: "Non Aktif" },
-  ];
-
   useEffect(() => {
     getDepts();
     getGroups();
